@@ -18,6 +18,7 @@ $path/rtlamr -filterid=$meterid -single=true -format='json' > reading
 
 #run the energy_parse.py file to append the reading in a log file
 python $path/energy_parse.py
+#may need to swap to python3
 
 #stop rtl_tcp from the PID number
 kill -9 $PID
