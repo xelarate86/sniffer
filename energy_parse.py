@@ -30,8 +30,7 @@ tfile.close()
 data = json.loads(text)
 
 kWh = float(data['Message']['Consumption']) #/ 100   #this is where you may adjust the decimal place
-timestamp, _ = string.split(string.replace(data['Time'],'T',' '),'.')
-stamp = str(timestamp) + ',' + str('%.2f' % kWh) + '\n'
+stamp = str(timestamp) + ',' + str('%.0f' % kWh) + '\n'
 
 datafile.write(stamp)
 datafile.close()
