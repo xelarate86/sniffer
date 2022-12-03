@@ -14,7 +14,7 @@ path="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 meterid=$(jq '.Meter_ID' $path/info.json)
 
 #run rtlamr and save the output in json format
-$path/rtlamr -filterid=$meterid -logfile="$path/reading" -quiet -single=true -format="json"
+$path/rtlamr -filterid=$meterid -single=true -format='json' > reading
 
 #run the energy_parse.py file to append the reading in a log file
 python $path/energy_parse.py
