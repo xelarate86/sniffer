@@ -1,4 +1,4 @@
-# EECE 7364 - SDR Examples with the Raspberry Pi
+# See HomeLab Configs folder for proper instructions
 Tyler Fenton is Master of Science Candidate at [Northeastern University](http://www.northeastern.edu/) in the [College of Electrical and Computer Engineering](http://www.ece.neu.edu/). This material was produced by Tyler for [Professor Chowdhury's](http://krc.coe.neu.edu/) Mobile and Wireless Networks course (EECE 7364, Spring 2016).
 
 ### Introduction
